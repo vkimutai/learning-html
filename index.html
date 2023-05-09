@@ -1,91 +1,271 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="author" content="victor kimutai">
-        <meta name="description" content="This page will show what have learned in HTML">
-        <title>my first page</title>
-        <link rel="stylesheet" href="main.css">
-        <link rel="icon" href="html5.png.png">
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="victor kimutai" />
+    <meta
+      name="description"
+      content="This page will show what have learned in HTML"
+    />
+    <title>my first page</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" href="html5.png.png" />
+  </head>
 
-    <BODY>
-        <header>
-        <H1>Hello world!</H1>
-       <nav>
+  <body>
+    <header>
+      <h1>Hello world!</h1>
+      <nav aria-label="primary-navigation">
         <ol>
-            <li>
-                <a href="#html">learning htmt</a>
-            </li>
-            <li>
-                <a href="#vacation">my lunch menu</a>
-            </li>
+          <li>
+            <a href="#html">learning htmt</a>
+          </li>
+          <li>
+            <a href="#vacation">tour to caribbean</a>
+          </li>
+          <li>
+            <a href="#lunch">lunch menu</a>
+          </li>
+          <li>
+            <a href="#contact">contact me</a>
+          </li>
         </ol>
-       </nav>
+      </nav>
     </header>
-    <hr>
+    <hr />
     <main>
-    <article id="HTML">
-        <H2>my daily schedule</H2>
-        <p>let me tell you were i always learn HTML from:
-            <br>I will then learn through <a href="https://www.w3schools.in/"> w3schools</a> in the morning
-            <br>take a shower and <abbr title="dress up">dp</abbr>
+      <section id="HTML">
+        <h2>html studies</h2>
+        <p>
+          let me tell you were i always learn HTML from: <br />I learn through
+          <a href="https://www.w3schools.in/"> w3schools</a> in the morning
+          <br />
+          before taking a shower and <abbr title="dress up">dressing up</abbr>
         </p>
-        <section>
-            <h3>HTML5</h3>
 
-        <img src="IMG/html5.png.png" alt="HTML5 logo" title= "I am learning HTML" width="200" height="200">
+        <img
+          src="IMG/html5.png.png"
+          alt="HTML5 logo"
+          title="I am learning HTML"
+          width="200"
+          height="200"
+        />
         <figure>
-        <figcaption>HTML logo</figcaption>
-    </figure>
-        </section>
-        <section>
-        <H3>i will also take lunch</H3>
-        <p>The best food is those with high quality fiber like banana and avocado</p>
+          <figcaption>HTML logo</figcaption>
+        </figure>
+        <br />
+        <table>
+          <caption>
+            my daily schedule
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Time</th>
+              <th scope="col">Activities</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <time datetime="08:00">8am</time>-<time datetime="11:00"
+                  >11am</time
+                >
+              </td>
+              <td>write code</td>
+            </tr>
+            <tr>
+              <td>
+                <time datetime="11:00">11am</time>-<time datetime="12:00"
+                  >12pm</time
+                >
+              </td>
+              <td>eat lunch</td>
+            </tr>
+            <tr>
+              <td>
+                <time datetime="12:00">12pm</time>-<time datetime="17:00"
+                  >17pm</time
+                >
+              </td>
+              <td>study other courses</td>
+            </tr>
+            <tr>
+              <td rowspan="3">all other time</td>
+              <td>play ps</td>
+            </tr>
+            <tr>
+              <td>visit friends</td>
+            </tr>
+            <tr>
+              <td>sleep</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">
+                and that is how am serious on my busy schedule daily from my
+                side. Just eat, sleep, code....and recharge
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+        <aside>
+          <details>
+            <summary>
+              guess the <mark> of hours</mark> i spent learning html
+            </summary>
+            <p>
+              I work up <time datetime="08:00">8 am</time> and code for<time
+                datetime="PT3H"
+                >3 hours
+              </time>
+            </p>
+          </details>
+        </aside>
+      </section>
+
+      <section id="lunch">
+        <h2>lunch brake</h2>
+        <p>
+          The best food is those with high quality fiber like banana and avocado
+        </p>
         <figure>
-        <img src="IMG/istockphoto-1457889029-1024x1024 (1).jpg" alt="istock dietry fiber food" title="best dietry fiber food" width="400" height="300" loading="lazy">
-        <figcaption>The best dietry fiber food</figcaption>
-    </figure>
-        <p>after 4 hours i will take: </p>
-        <OL>
-        <li>&nbsp;&nbsp;&nbsp; -tea</li>
-        <LI>&nbsp;&nbsp;&nbsp; -bread</LI>
-        <li>&nbsp;&nbsp;&nbsp; -rice</li>
-        <li>&nbsp;&nbsp;&nbsp; -chapati</li>
-     </OL>
-</section>
-</article>
-        <p>i will then head to <em>kibigos:</em></p>
-        <address>
-            kibigos-kapkochur highway<br>
-            78765-9876<br>
-            kapsaina
-        </address>
-        <article id="vacation">
+          <img
+            src="IMG/fiber%20food.png.jpg"
+            alt="istock dietry fiber food"
+            title="best dietry fiber food"
+            width="300"
+            height="200"
+            loading="lazy"
+          />
+          <figcaption>The best dietry fiber food</figcaption>
+        </figure>
+        <p>After 4 hours i will take:</p>
+        <ol>
+          <li>&nbsp;&nbsp;&nbsp; tea</li>
+          <li>&nbsp;&nbsp;&nbsp; bread</li>
+          <li>&nbsp;&nbsp;&nbsp; rice</li>
+          <li>&nbsp;&nbsp;&nbsp; chapati</li>
+        </ol>
+        <aside>
+          <details>
+            <summary>the best <mark> meal</mark> to take are</summary>
+            <p>
+              chapati <br />
+              maize <br />
+              rice
+            </p>
+          </details>
+        </aside>
+      </section>
+
+      <section id="vacation">
         <!--TODO: Add more places-->
-        <h3>places i would like to visit</h3>
-        <P>Carebbean is the best place to visit in latin america</P>
+        <h2>places i would like to visit</h2>
+        <p>Carebbean is the best place to visit in latin america</p>
         <p>The beaches are the best with warm climate for a perfect date</p>
-     <figure>
-        <img src="IMG/istockphoto-1409283180-1024x1024.jpg" alt="Carebbean beaches" title="Carebbean beach" width="400" hight="500" loading="lazy">
-        <figcaption>our best date ever</figcaption>
-    </figure>
-        <p>i would avoid <strong> cold places!</strong> </p>
+        <figure>
+          <img
+            src="IMG/vaccation.png.jpg"
+            alt="Carebbean beaches"
+            title="Carebbean beach"
+            height="300"
+            width="300"
+            loading="lazy"
+          />
+          <figcaption>our best date ever</figcaption>
+        </figure>
+        <p>I would avoid <strong> cold places!</strong></p>
         <dl>
-            <dt>north pole</dt>
-            <dd>it is the worst place</dd>
-            <dt>south pole</dt>
-            <dd>it is the <strong>coldest of all places!</strong></dd>
+          <dt>north pole</dt>
+          <dd>it is the worst place</dd>
+          <dt>south pole</dt>
+          <dd>it is the <strong>coldest of all places!</strong></dd>
         </dl>
-        </main>
-        <hr>
-        <footer>
-        &lt;&lt;&lt; &copy; <a href="about.html"> victor kimutai</a> &gt;&gt;&gt;
+        <p>I will then head to <em>kibigos:</em></p>
+        <address>
+          kibigos-kapkochur highway<br />
+          78765-9876<br />
+          kapsaina
+        </address>
+      </section>
+    </main>
+    <hr />
+    <article id="contact">
+      <h2>contact me</h2>
+      <p>i'd really like talking to you</p>
+      <form action="http://httpbin.org/get" method="get">
+        <p>
+          <legend>personal info</legend>
+          <label for="firstName">first name</label>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="jane"
+            autocomplete="on"
+            required
+            autofocus
+          />
+        </p>
+        <p>
+          <label for="lastName">last name</label>
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="cruze"
+            autocomplete="on"
+            required
+          />
+        </p>
+        <p>
+          <label for="phone">phone no</label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="0723212644"
+            pattern="{0-9}{2}-{0-9}{2}-{0-9}{3}-{0-9}-{3}"
+            autocomplete="on"
+            required
+          />
+        </p>
+        <p>
+          <label for="decade">year of birth</label>
+          <input
+            type="number"
+            name="decade"
+            id="decade"
+            max="2020"
+            min="1980"
+            step="10"
+            value="1980"
+          />
+          <input type="submit" />
+        </p>
+        <p>
+          <label for="coffee">favorite cofee</label>
+          <select name="coffee" id="coffee">
+            <option value="regular coffee">Regular Coffee</option>
+            <option value="iced coffee">iced coffee</option>
+            <option value="latte" selected>latte</option>
+            <option value="cortado">cotado</option>
+            <option value="americano">americano</option>
+            <option value="others">others</option>
+          </select>
+        </p>
+      </form>
+    </article>
+    <footer>
+      <p>
+        &lt;&lt;&lt; &copy;
+        <a href="about.html"> victor kimutai</a> &gt;&gt;&gt;
+      </p>
     </footer>
     <p>
-        <a href="#">back to the top</a>
+      <a href="#">back to the top</a>
     </p>
-
-    </BODY>
+  </body>
 </html>

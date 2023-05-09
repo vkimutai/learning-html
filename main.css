@@ -1,13 +1,21 @@
 html {
-    font-size: 15px;
-  }
-  body{
-    background-color: yellow;
-    color: whitesmoke;
-  }
-  a:visited {
-    color:orange;
-  }
-  a:hover, a:active {
-    color: green;
-  }  
+  font-size: 15px;
+}
+body {
+  background-color: black;
+  color: whitesmoke;
+}
+a:visited {
+  color: orange;
+}
+a:hover,
+a:active {
+  color: green;
+}
+table,
+tr,
+td,
+caption {
+  border: 01px solid springgreen;
+  font-family: "courier new";
+}
